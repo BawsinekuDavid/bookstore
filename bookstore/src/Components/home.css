@@ -1,0 +1,65 @@
+/* src/HomePage.css */
+.body {
+    padding-top: 56px; /* Adjust based on the height of your navbar */
+  }
+
+.navbar {
+    margin-bottom: 20px;
+    z-index: 1030; /* Ensure the navbar stays on top of other content */
+}
+  
+  .card {
+    height: 100%;
+  }
+  .form-control {
+    margin-left: 100px;
+  }
+  .card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+.carousel-item img {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  .navbar-nav .nav-link {
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Change this color as needed */
+  }
+  
+  /* Hover effect for dropdown items */
+  .dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa; /* Change this color as needed */
+  }
+  
+  /* Hover effect for carousel control */
+  .carousel-control-prev,
+  .carousel-control-next {
+    transition: opacity 0.3s ease;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 0.8; /* Change this value as needed */
+  }
+  
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #0063c7; /* Adjust color as needed */
+  /* padding: 10px 0; */
+  text-align: center;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+.bookstore1{
+  color: black;
+}
